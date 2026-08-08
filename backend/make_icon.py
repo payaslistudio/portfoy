@@ -1,4 +1,4 @@
-"""Varlık Cüzdanı için basit uygulama ikonu üretir.
+"""Yatırım Cüzdanı için basit uygulama ikonu üretir.
 
 Konsept: yuvarlanmış-kare, sarı-turuncu gradient arkaplan, ortada beyaz cüzdan
 sembolü ve içinde yükselen çubuk grafik.

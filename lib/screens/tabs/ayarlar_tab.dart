@@ -11,7 +11,7 @@ class AyarlarTab extends StatefulWidget {
 }
 
 class _AyarlarTabState extends State<AyarlarTab> {
-  static const _appName = 'Varlık Cüzdanı';
+  static const _appName = 'Yatırım Cüzdanı';
   static const _version = '0.1.0';
   static const _supportEmail = 'payaslistudio@gmail.com';
   // Play Store paket kimliği ile aynı olmalı
@@ -100,7 +100,7 @@ class _AyarlarTabState extends State<AyarlarTab> {
                 Text('Sürüm $_version',
                     style: Theme.of(context).textTheme.bodySmall),
                 const SizedBox(height: 8),
-                Text('© 2026 Varlık Cüzdanı. Tüm hakları saklıdır.',
+                Text('© 2026 Yatırım Cüzdanı. Tüm hakları saklıdır.',
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
                         fontSize: 11)),
               ],
@@ -159,7 +159,7 @@ class _AyarlarTabState extends State<AyarlarTab> {
                     Text(
                       isPro
                           ? 'Pro üyeliğin aktif ✓'
-                          : 'Varlık Cüzdanı Pro’ya Geç',
+                          : 'Yatırım Cüzdanı Pro’ya Geç',
                       style: const TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -235,7 +235,7 @@ class _AyarlarTabState extends State<AyarlarTab> {
                 Icon(Icons.workspace_premium,
                     color: Color(0xFFFFB300), size: 28),
                 SizedBox(width: 8),
-                Text('Varlık Cüzdanı Pro',
+                Text('Yatırım Cüzdanı Pro',
                     style: TextStyle(
                         fontSize: 20, fontWeight: FontWeight.w800)),
               ],
@@ -554,7 +554,7 @@ class _AyarlarTabState extends State<AyarlarTab> {
         title: const Text('Gizlilik Politikası'),
         content: const SingleChildScrollView(
           child: Text(
-            'Varlık Cüzdanı, kişisel finans verilerinizi sunucularımıza göndermez.\n\n'
+            'Yatırım Cüzdanı, kişisel finans verilerinizi sunucularımıza göndermez.\n\n'
             '• Tüm portföy kayıtlarınız, işlem geçmişiniz ve fiyat snapshot\'larınız '
             'yalnızca telefonunuzun yerel depolamasında tutulur (Android '
             'SharedPreferences, iOS UserDefaults).\n\n'

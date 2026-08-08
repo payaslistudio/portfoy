@@ -65,7 +65,7 @@ class _YatirimCuzdaniAppState extends State<YatirimCuzdaniApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Varlık Cüzdanı',
+      title: 'Yatırım Cüzdanı',
       debugShowCheckedModeBanner: false,
       themeMode: settings.themeMode,
       theme: _lightTheme(),
