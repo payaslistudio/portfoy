@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası — Varlık Cüzdanı</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 Helvetica, Arial, sans-serif;
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.65;
+    color: #222;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0e1116; color: #e2e6ee; }
+    a { color: #ffb300; }
+  }
+  h1 { color: #ffb300; margin-bottom: 4px; }
+  .updated { color: #888; font-size: 14px; margin-bottom: 24px; }
+  h2 { margin-top: 32px; }
+  code { background: rgba(128,128,128,0.15); padding: 2px 6px; border-radius: 4px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+</style>
+</head>
+<body>
+<h1>Gizlilik Politikası</h1>
+<p class="updated">Son güncelleme: 8 Ağustos 2026</p>
+
+<p><strong>Varlık Cüzdanı</strong> (bundan sonra "Uygulama"),
+kişisel finans takibi için tasarlanmış bir mobil uygulamadır. Bu politika
+Uygulama'nın hangi verileri işlediğini ve nasıl koruduğunu açıklar.</p>
+
+<h2>1. Toplanan Veriler</h2>
+<p>Varlık Cüzdanı <strong>hiçbir kişisel veriyi sunucularımıza göndermez veya
+saklamaz.</strong></p>
+<ul>
+  <li>Portföy kayıtlarınız (varlık, miktar, maliyet, tarih, not)</li>
+  <li>İşlem geçmişiniz</li>
+  <li>Fiyat snapshot'ları (analiz için)</li>
+  <li>Uygulama tercihleriniz (para birimi, tema)</li>
+</ul>
+<p>Bu bilgiler <strong>yalnızca telefonunuzun yerel depolamasında</strong>
+tutulur (Android <code>SharedPreferences</code>). Uygulamayı sildiğinizde
+tüm verileriniz cihazınızla birlikte silinir.</p>
+
+<h2>2. Anlık Fiyat Verisi</h2>
+<p>Anlık piyasa fiyatlarını göstermek için aşağıdaki resmi/açık kaynaklara
+HTTP çağrısı yapılır:</p>
+<ul>
+  <li><a href="https://finans.truncgil.com" target="_blank">Truncgil</a> — altın ve döviz fiyatları</li>
+  <li><a href="https://finance.yahoo.com" target="_blank">Yahoo Finance</a> — BIST hisseleri</li>
+  <li><a href="https://www.tefas.gov.tr" target="_blank">TEFAS</a> — fon fiyatları (GitHub Actions üzerinden günlük)</li>
+</ul>
+<p>Bu çağrılarda yalnızca istenen sembol (örn. "USD", "THYAO", "YAC") iletilir.
+Hiçbir kişisel bilginiz veya cihaz kimliğiniz gönderilmez.</p>
+
+<h2>3. Reklam ve Analitik</h2>
+<p>Uygulama'da reklam, kullanım analitiği veya üçüncü taraf takip SDK'sı
+<strong>bulunmamaktadır</strong>.</p>
+
+<h2>4. Yetkiler</h2>
+<p>Uygulama yalnızca aşağıdaki Android yetkisini kullanır:</p>
+<ul>
+  <li><code>INTERNET</code> — anlık fiyat verisini çekmek için</li>
+</ul>
+
+<h2>5. Yaş Sınırı</h2>
+<p>Uygulama 13 yaş ve üzeri kullanıcılar için tasarlanmıştır.</p>
+
+<h2>6. Değişiklikler</h2>
+<p>Bu politika güncellendiğinde bu sayfanın en üstündeki tarih değiştirilir.
+Kritik değişiklikler uygulama içi bildirimle duyurulur.</p>
+
+<h2>7. İletişim</h2>
+<p>Gizlilik ile ilgili sorularınız için:
+<a href="mailto:payaslistudio@gmail.com">payaslistudio@gmail.com</a></p>
+
+<hr style="margin-top:40px; border:none; border-top:1px solid rgba(128,128,128,0.3);">
+<p style="font-size:12px; color:#888; text-align:center;">
+© 2026 Varlık Cüzdanı — payaslistudio
+</p>
+</body>
+</html>

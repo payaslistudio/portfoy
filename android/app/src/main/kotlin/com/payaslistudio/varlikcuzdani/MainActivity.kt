@@ -1,4 +1,4 @@
-package com.paycu.portfoy
+package com.payaslistudio.varlikcuzdani
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -85,7 +85,7 @@ class PriceService {
         result[code] = 1.0;
         return;
       }
-      final entry = data[key];
+      final entry = data![key];
       if (entry is Map && entry['Selling'] != null) {
         final raw = entry['Selling'].toString().replaceAll(',', '.');
         final v = double.tryParse(raw);

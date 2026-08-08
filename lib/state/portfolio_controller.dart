@@ -201,12 +201,21 @@ class PortfolioController extends ChangeNotifier {
       assets.remove(asset);
     }
     await _storage.save(assets);
+    if (assets.isEmpty) {
+      snapshots.clear();
+      await _saveSnapshots();
+    }
     notifyListeners();
   }
 
   Future<void> removeAsset(UserAsset asset) async {
     assets.remove(asset);
     await _storage.save(assets);
+    // Tüm varlıklar silindiyse analiz geçmişini de temizle
+    if (assets.isEmpty) {
+      snapshots.clear();
+      await _saveSnapshots();
+    }
     notifyListeners();
   }
 }

@@ -1,5 +1,5 @@
 name: portfoy
-description: "Altın, döviz ve hisse senedi portföy takip uygulaması."
+description: "Varlık Cüzdanı — altın, döviz, hisse ve fon portföyünü tek yerde takip et."
 publish_to: 'none'
 version: 0.1.0+1
 
@@ -15,11 +15,38 @@ dependencies:
   intl: ^0.19.0
   shared_preferences: ^2.3.2
   uuid: ^4.5.1
+  url_launcher: ^6.3.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#FFB300"
+  adaptive_icon_foreground: "assets/icon_foreground.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#0E1116"
+  color_dark: "#0E1116"
+  image: "assets/icon_foreground.png"
+  image_dark: "assets/icon_foreground.png"
+  android_12:
+    color: "#0E1116"
+    image: "assets/icon_foreground.png"
+    icon_background_color: "#FFB300"
+  android: true
+  ios: true
+  web: false
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/

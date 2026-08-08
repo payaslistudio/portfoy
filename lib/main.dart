@@ -1,33 +1,42 @@
 import 'package:flutter/material.dart';
+import 'services/settings_service.dart';
 import 'state/portfolio_controller.dart';
-import 'screens/home_screen.dart';
+import 'screens/shell.dart';
+
+/// Uygulama boyunca tek örnek ayarlar servisi.
+final settings = SettingsService();
 
 void main() {
-  runApp(const PortfoyApp());
+  runApp(const YatirimCuzdaniApp());
 }
 
-class PortfoyApp extends StatefulWidget {
-  const PortfoyApp({super.key});
+class YatirimCuzdaniApp extends StatefulWidget {
+  const YatirimCuzdaniApp({super.key});
 
   @override
-  State<PortfoyApp> createState() => _PortfoyAppState();
+  State<YatirimCuzdaniApp> createState() => _YatirimCuzdaniAppState();
 }
 
-class _PortfoyAppState extends State<PortfoyApp> {
+class _YatirimCuzdaniAppState extends State<YatirimCuzdaniApp> {
   final controller = PortfolioController();
 
   @override
   void initState() {
     super.initState();
+    settings.load();
     controller.init();
+    settings.addListener(_onSettings);
   }
 
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Portföy',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
+  void dispose() {
+    settings.removeListener(_onSettings);
+    super.dispose();
+  }
+
+  void _onSettings() => setState(() {});
+
+  ThemeData _darkTheme() => ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xFFFFB300),
@@ -38,8 +47,30 @@ class _PortfoyAppState extends State<PortfoyApp> {
           color: Color(0xFF161A22),
           elevation: 0,
         ),
-      ),
-      home: HomeScreen(controller: controller),
+      );
+
+  ThemeData _lightTheme() => ThemeData(
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFFFFB300),
+          brightness: Brightness.light,
+        ),
+        scaffoldBackgroundColor: const Color(0xFFF6F7F9),
+        cardTheme: const CardThemeData(
+          color: Colors.white,
+          elevation: 0,
+        ),
+      );
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Varlık Cüzdanı',
+      debugShowCheckedModeBanner: false,
+      themeMode: settings.themeMode,
+      theme: _lightTheme(),
+      darkTheme: _darkTheme(),
+      home: AppShell(controller: controller, settings: settings),
     );
   }
 }
