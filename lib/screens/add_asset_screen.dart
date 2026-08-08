@@ -20,6 +20,7 @@ class _AddAssetScreenState extends State<AddAssetScreen> {
   AssetDefinition? _selectedDef;
   final _stockCtrl = TextEditingController();
   final _fundCtrl = TextEditingController();
+  Map<String, ({double price, String name})> _tefasCatalog = {};
   final _qtyCtrl = TextEditingController();
   final _costCtrl = TextEditingController();
   final _noteCtrl = TextEditingController();
@@ -30,6 +31,14 @@ class _AddAssetScreenState extends State<AddAssetScreen> {
   void initState() {
     super.initState();
     _selectedDef = AssetCatalog.byCategory(_category).first;
+    _loadTefasCatalog();
+  }
+
+  Future<void> _loadTefasCatalog() async {
+    try {
+      final c = await widget.controller.priceService.fetchFundCatalog();
+      if (mounted) setState(() => _tefasCatalog = c);
+    } catch (_) {}
   }
 
   @override
@@ -195,6 +204,17 @@ class _AddAssetScreenState extends State<AddAssetScreen> {
                 optionsBuilder: (TextEditingValue value) {
                   final q = value.text.trim().toUpperCase();
                   if (q.isEmpty) return const Iterable<String>.empty();
+                  // Öncelik: canlı TEFAS kataloğu (1300+ fon).
+                  // Yoksa fallback olarak yerleşik kısa liste.
+                  final src = _tefasCatalog.isNotEmpty ? _tefasCatalog : null;
+                  if (src != null) {
+                    return src.entries
+                        .where((e) =>
+                            e.key.startsWith(q) ||
+                            e.value.name.toUpperCase().contains(q))
+                        .take(25)
+                        .map((e) => e.key);
+                  }
                   return kTefasFunds.entries
                       .where((e) =>
                           e.key.startsWith(q) ||
@@ -242,7 +262,8 @@ class _AddAssetScreenState extends State<AddAssetScreen> {
                           itemCount: options.length,
                           itemBuilder: (context, i) {
                             final code = options.elementAt(i);
-                            final name = kTefasFunds[code] ?? '';
+                            final name = _tefasCatalog[code]?.name
+                                ?? kTefasFunds[code] ?? '';
                             return ListTile(
                               dense: true,
                               title: Text(code,

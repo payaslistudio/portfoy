@@ -89,7 +89,9 @@ class PortfolioController extends ChangeNotifier {
     error = null;
     notifyListeners();
     try {
-      currentPrices = await priceService.fetchTruncgil(force: true);
+      final fresh = await priceService.fetchTruncgil(force: true);
+      // Boş cevap gelirse mevcut fiyatları koru
+      if (fresh.isNotEmpty) currentPrices.addAll(fresh);
       // Kullanıcının eklediği BIST hisselerini de çek
       final stocks = assets.where((a) => a.category == AssetCategory.stock);
       for (final s in stocks) {

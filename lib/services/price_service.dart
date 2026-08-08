@@ -42,6 +42,8 @@ class PriceService {
   static const _cacheTtl = Duration(minutes: 2);
 
   /// Katalog varlıklarının TL cinsinden anlık fiyatı.
+  /// Truncgil zaman zaman kesik JSON döner; 3 kez dener, hepsi başarısızsa
+  /// eski cache'i (varsa) korur ve onu döner.
   Future<Map<String, double>> fetchTruncgil({bool force = false}) async {
     if (!force &&
         _cache != null &&
@@ -50,15 +52,32 @@ class PriceService {
       return _cache!;
     }
 
-    final res = await http
-        .get(Uri.parse(_truncgilUrl))
-        .timeout(const Duration(seconds: 15));
-
-    if (res.statusCode != 200) {
-      throw Exception('Fiyat servisi hatası: ${res.statusCode}');
+    Map<String, dynamic>? data;
+    Object? lastError;
+    for (var attempt = 0; attempt < 3; attempt++) {
+      try {
+        final res = await http
+            .get(Uri.parse(_truncgilUrl))
+            .timeout(const Duration(seconds: 15));
+        if (res.statusCode != 200) {
+          lastError = 'HTTP ${res.statusCode}';
+          continue;
+        }
+        // UTF-8 decode; res.body bazen kesik döner, bodyBytes daha güvenilir
+        final text = utf8.decode(res.bodyBytes, allowMalformed: true);
+        data = json.decode(text) as Map<String, dynamic>;
+        break;
+      } catch (e) {
+        lastError = e;
+        await Future.delayed(const Duration(milliseconds: 400));
+      }
+    }
+    if (data == null) {
+      // 3 denemede parse başarısız — eski cache'i döndür, sessizce.
+      if (_cache != null) return _cache!;
+      throw Exception('Fiyat servisi geçici olarak erişilemez: $lastError');
     }
 
-    final data = json.decode(res.body) as Map<String, dynamic>;
     final result = <String, double>{};
 
     _truncgilMap.forEach((code, key) {
@@ -86,45 +105,49 @@ class PriceService {
   static const _fundsJsonUrl =
       'https://raw.githubusercontent.com/payaslistudio/portfoy/main/data/funds.json';
 
-  Map<String, double>? _fundCache;
+  /// code → {price, name} tam katalog. Autocomplete + fiyat için ortak kaynak.
+  Map<String, ({double price, String name})>? _fundCatalog;
   DateTime? _fundCacheTime;
   static const _fundCacheTtl = Duration(hours: 6);
 
-  Future<Map<String, double>> _fetchAllFunds({bool force = false}) async {
+  Future<Map<String, ({double price, String name})>> fetchFundCatalog(
+      {bool force = false}) async {
     if (!force &&
-        _fundCache != null &&
+        _fundCatalog != null &&
         _fundCacheTime != null &&
         DateTime.now().difference(_fundCacheTime!) < _fundCacheTtl) {
-      return _fundCache!;
+      return _fundCatalog!;
     }
+    if (_fundsJsonUrl.contains('CHANGE_ME')) return {};
     final res = await http
         .get(Uri.parse(_fundsJsonUrl))
         .timeout(const Duration(seconds: 15));
     if (res.statusCode != 200) return {};
     final data = json.decode(res.body) as Map<String, dynamic>;
     final prices = data['prices'];
-    final map = <String, double>{};
+    final map = <String, ({double price, String name})>{};
     if (prices is Map) {
       prices.forEach((k, v) {
         if (v is Map && v['price'] is num) {
-          map[k.toString().toUpperCase()] = (v['price'] as num).toDouble();
+          map[k.toString().toUpperCase()] = (
+            price: (v['price'] as num).toDouble(),
+            name: (v['name'] ?? '').toString(),
+          );
         }
       });
     }
-    _fundCache = map;
+    _fundCatalog = map;
     _fundCacheTime = DateTime.now();
     return map;
   }
 
   /// TEFAS fonunun son fiyatı (TL). `code` 2-4 harfli fon kodu (ör. YAC, AAK).
-  /// Backend cron'unu deploy etmediysen boş döner.
   Future<double?> fetchTefasFund(String code) async {
     final c = code.trim().toUpperCase();
     if (c.isEmpty) return null;
-    if (_fundsJsonUrl.contains('CHANGE_ME')) return null;
     try {
-      final all = await _fetchAllFunds();
-      return all[c];
+      final all = await fetchFundCatalog();
+      return all[c]?.price;
     } catch (_) {
       return null;
     }
