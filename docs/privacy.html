@@ -28,55 +28,92 @@
 </style>
 </head>
 <body>
-<h1>Gizlilik Politikası</h1>
-<p class="updated">Son güncelleme: 8 Ağustos 2026</p>
+<h1>Gizlilik Politikası ve Kullanım Koşulları</h1>
+<p class="updated">Son güncelleme: 9 Ağustos 2026</p>
 
 <p><strong>Yatırım Cüzdanı</strong> (bundan sonra "Uygulama"),
-kişisel finans takibi için tasarlanmış bir mobil uygulamadır. Bu politika
-Uygulama'nın hangi verileri işlediğini ve nasıl koruduğunu açıklar.</p>
+kişisel varlık takibi için tasarlanmış bir mobil uygulamadır. Bu belge
+Uygulama'nın nasıl kullanıldığını, hangi verileri işlediğini ve
+kullanıcının sorumluluklarını açıklar. Uygulama'yı indirmek ve kullanmak
+bu koşulları kabul ettiğiniz anlamına gelir.</p>
 
-<h2>1. Toplanan Veriler</h2>
-<p>Yatırım Cüzdanı <strong>hiçbir kişisel veriyi sunucularımıza göndermez veya
-saklamaz.</strong></p>
+<h2>1. Önemli Yasal Uyarı</h2>
+<p><strong>Yatırım Cüzdanı bir aracı kurum, banka, cüzdan servisi veya
+finansal danışmanlık hizmeti değildir.</strong> Uygulama yalnızca
+kullanıcının kendi kayıtlarını tuttuğu bir <strong>takip aracıdır</strong>.
+Alım-satım, para transferi veya benzeri finansal işlem
+gerçekleştirmez.</p>
+
+<p><strong>Uygulama'da gösterilen fiyatlar ve hesaplamalar hiçbir şekilde
+yatırım tavsiyesi niteliği taşımaz.</strong> Yatırım kararlarınız için
+lisanslı bir aracı kuruluşa danışmanız gerekir. Uygulama'ya güvenerek
+aldığınız kararlardan doğacak her türlü kâr/zarar tamamen kendi
+sorumluluğunuzdadır.</p>
+
+<h2>2. Fiyat Verilerinin Doğruluğu ve Gecikmesi</h2>
+<p><strong>Uygulama'da gösterilen piyasa fiyatları anlık/gerçek zamanlı
+değildir.</strong> Fiyatlar:</p>
+<ul>
+  <li>15 dakika veya daha fazla gecikmeli olabilir</li>
+  <li>Kaynağa ulaşılamadığı anlarda güncellenmeyebilir</li>
+  <li>Hatalı, eksik veya güncel olmayan değerler içerebilir</li>
+  <li>Piyasa kapalı saatlerde son işlem fiyatını gösterir</li>
+</ul>
+<p><strong>Fiyatların doğruluğu, güncelliği ve kesintisizliği hiçbir
+şekilde garanti edilmez.</strong> Kullanıcı, bu verilere dayanarak
+alacağı kararlardan Uygulama geliştiricisini sorumlu tutamaz.</p>
+
+<h2>3. Toplanan Veriler</h2>
+<p>Yatırım Cüzdanı <strong>hiçbir kişisel veriyi sunucularımıza göndermez
+veya saklamaz.</strong> Aşağıdaki bilgiler yalnızca telefonunuzun yerel
+depolamasında tutulur:</p>
 <ul>
   <li>Portföy kayıtlarınız (varlık, miktar, maliyet, tarih, not)</li>
   <li>İşlem geçmişiniz</li>
   <li>Fiyat snapshot'ları (analiz için)</li>
   <li>Uygulama tercihleriniz (para birimi, tema)</li>
 </ul>
-<p>Bu bilgiler <strong>yalnızca telefonunuzun yerel depolamasında</strong>
-tutulur (Android <code>SharedPreferences</code>). Uygulamayı sildiğinizde
-tüm verileriniz cihazınızla birlikte silinir.</p>
+<p>Uygulamayı sildiğinizde tüm verileriniz cihazınızla birlikte silinir.
+Yedekleme veya sunucu tarafı depolama <strong>yoktur</strong>.</p>
 
-<h2>2. Anlık Fiyat Verisi</h2>
-<p>Anlık piyasa fiyatlarını göstermek için aşağıdaki resmi/açık kaynaklara
-HTTP çağrısı yapılır:</p>
-<ul>
-  <li><a href="https://finans.truncgil.com" target="_blank">Truncgil</a> — altın ve döviz fiyatları</li>
-  <li><a href="https://finance.yahoo.com" target="_blank">Yahoo Finance</a> — BIST hisseleri</li>
-  <li><a href="https://www.tefas.gov.tr" target="_blank">TEFAS</a> — fon fiyatları (GitHub Actions üzerinden günlük)</li>
-</ul>
-<p>Bu çağrılarda yalnızca istenen sembol (örn. "USD", "THYAO", "YAC") iletilir.
-Hiçbir kişisel bilginiz veya cihaz kimliğiniz gönderilmez.</p>
+<h2>4. Anlık Fiyat Verisi</h2>
+<p>Piyasa fiyatlarını göstermek için üçüncü taraf açık veri sağlayıcılarına
+HTTP çağrısı yapılır. Bu çağrılarda yalnızca istenen sembol (örn. "USD",
+"THYAO") iletilir; kimlik bilginiz, konum, cihaz kimliği ve benzeri
+kişisel veri gönderilmez.</p>
 
-<h2>3. Reklam ve Analitik</h2>
+<h2>5. Reklam ve Analitik</h2>
 <p>Uygulama'da reklam, kullanım analitiği veya üçüncü taraf takip SDK'sı
 <strong>bulunmamaktadır</strong>.</p>
 
-<h2>4. Yetkiler</h2>
+<h2>6. Yetkiler</h2>
 <p>Uygulama yalnızca aşağıdaki Android yetkisini kullanır:</p>
 <ul>
-  <li><code>INTERNET</code> — anlık fiyat verisini çekmek için</li>
+  <li><code>INTERNET</code> — piyasa fiyatlarını çekmek için</li>
 </ul>
 
-<h2>5. Yaş Sınırı</h2>
-<p>Uygulama 13 yaş ve üzeri kullanıcılar için tasarlanmıştır.</p>
+<h2>7. Sorumluluk Reddi</h2>
+<p>Uygulama "olduğu gibi" (as-is) sunulmuştur. Geliştirici, Uygulama'nın
+kesintisiz çalışacağına, hatasız olacağına veya belirli bir amaca uygun
+olacağına dair açık veya zımni hiçbir garanti vermez.</p>
+<p>Uygulama'nın kullanımından doğabilecek doğrudan veya dolaylı zararlar
+(veri kaybı, hatalı yatırım kararı, gelir kaybı vs.) için geliştirici
+sorumlu tutulamaz.</p>
 
-<h2>6. Değişiklikler</h2>
+<h2>8. Yaş Sınırı</h2>
+<p>Uygulama 18 yaş ve üzeri kullanıcılar için tasarlanmıştır.</p>
+
+<h2>9. Değişiklikler</h2>
 <p>Bu politika güncellendiğinde bu sayfanın en üstündeki tarih değiştirilir.
-Kritik değişiklikler uygulama içi bildirimle duyurulur.</p>
+Kritik değişiklikler uygulama içi bildirimle duyurulur. Kullanıcı,
+Uygulama'yı kullanmaya devam ederek güncellenmiş koşulları kabul etmiş
+sayılır.</p>
 
-<h2>7. İletişim</h2>
+<h2>10. Uygulanacak Hukuk</h2>
+<p>Bu politika Türkiye Cumhuriyeti hukukuna tabidir. Anlaşmazlıklarda
+İstanbul mahkemeleri yetkilidir.</p>
+
+<h2>11. İletişim</h2>
 <p>Gizlilik ile ilgili sorularınız için:
 <a href="mailto:payaslistudio@gmail.com">payaslistudio@gmail.com</a></p>
 

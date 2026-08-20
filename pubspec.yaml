@@ -1,7 +1,7 @@
 name: portfoy
 description: "Yatırım Cüzdanı — altın, döviz, hisse ve fon portföyünü tek yerde takip et."
 publish_to: 'none'
-version: 0.1.0+1
+version: 1.2.9+30
 
 environment:
   sdk: ^3.12.2
@@ -9,10 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^1.0.8
   http: ^1.2.2
   fl_chart: ^0.69.0
-  intl: ^0.19.0
+  intl: ^0.20.2
   shared_preferences: ^2.3.2
   uuid: ^4.5.1
   url_launcher: ^6.3.0

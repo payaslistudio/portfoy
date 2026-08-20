@@ -37,7 +37,7 @@ class _AyarlarTabState extends State<AyarlarTab> {
     return Scaffold(
       appBar: AppBar(title: const Text('Ayarlar')),
       body: ListView(
-        padding: const EdgeInsets.fromLTRB(0, 12, 0, 100),
+        padding: const EdgeInsets.fromLTRB(0, 12, 0, 220),
         children: [
           _proBanner(),
           _sectionHeader('Üyelik'),
@@ -106,6 +106,8 @@ class _AyarlarTabState extends State<AyarlarTab> {
               ],
             ),
           ),
+          // FAB'ın alta binmemesi için ekstra boşluk
+          const SizedBox(height: 80),
         ],
       ),
     );
@@ -213,7 +215,8 @@ class _AyarlarTabState extends State<AyarlarTab> {
       builder: (ctx) => Padding(
         padding: EdgeInsets.only(
           left: 20, right: 20, top: 20,
-          bottom: MediaQuery.of(ctx).viewInsets.bottom + 24,
+          bottom: MediaQuery.of(ctx).viewInsets.bottom +
+              MediaQuery.of(ctx).padding.bottom + 24,
         ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -400,7 +403,8 @@ class _AyarlarTabState extends State<AyarlarTab> {
       builder: (ctx) => Padding(
         padding: EdgeInsets.only(
           left: 20, right: 20, top: 20,
-          bottom: MediaQuery.of(ctx).viewInsets.bottom + 24,
+          bottom: MediaQuery.of(ctx).viewInsets.bottom +
+              MediaQuery.of(ctx).padding.bottom + 24,
         ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -551,21 +555,39 @@ class _AyarlarTabState extends State<AyarlarTab> {
     showDialog(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('Gizlilik Politikası'),
+        title: const Text('Gizlilik Politikası ve Yasal Uyarı'),
         content: const SingleChildScrollView(
           child: Text(
-            'Yatırım Cüzdanı, kişisel finans verilerinizi sunucularımıza göndermez.\n\n'
-            '• Tüm portföy kayıtlarınız, işlem geçmişiniz ve fiyat snapshot\'larınız '
-            'yalnızca telefonunuzun yerel depolamasında tutulur (Android '
-            'SharedPreferences, iOS UserDefaults).\n\n'
-            '• Uygulamayı sildiğinizde tüm verileriniz cihazınızla birlikte silinir.\n\n'
-            '• Anlık fiyat verisi için Truncgil (altın/döviz), Yahoo Finance '
-            '(BIST hisseleri) ve TEFAS (fon) resmi/açık kaynaklarına HTTP çağrısı '
-            'yapılır. Bu çağrılarda sadece istenen sembol iletilir; hiçbir kişisel '
-            'bilginiz veya cihaz kimliğiniz gönderilmez.\n\n'
-            '• Uygulamada reklam, analitik veya üçüncü taraf takip SDK\'sı yoktur.\n\n'
-            'Sorularınız için: $_supportEmail',
-            style: TextStyle(fontSize: 13, height: 1.4),
+            '⚠ ÖNEMLİ YASAL UYARI\n\n'
+            'Yatırım Cüzdanı bir aracı kurum, banka, cüzdan servisi veya '
+            'finansal danışmanlık hizmeti DEĞİLDİR. Uygulama yalnızca '
+            'kullanıcının kendi kayıtlarını tuttuğu bir TAKİP ARACIDIR.\n\n'
+            'Uygulama\'da gösterilen fiyatlar ve hesaplamalar hiçbir şekilde '
+            'yatırım tavsiyesi niteliği taşımaz. Yatırım kararlarınız için '
+            'lisanslı bir aracı kuruluşa danışmanız gerekir.\n\n'
+            '📊 FİYAT VERİLERİ\n\n'
+            'Uygulama\'da gösterilen piyasa fiyatları anlık/gerçek zamanlı '
+            'DEĞİLDİR. Fiyatlar:\n'
+            '• 15 dakika veya daha fazla gecikmeli olabilir\n'
+            '• Hatalı, eksik veya güncel olmayan değerler içerebilir\n'
+            '• Kaynağa ulaşılamadığı anlarda güncellenmeyebilir\n\n'
+            'Fiyatların doğruluğu ve güncelliği garanti EDİLMEZ. Bu verilere '
+            'dayanarak aldığınız kararlardan geliştirici sorumlu tutulamaz.\n\n'
+            '🔒 GİZLİLİK\n\n'
+            '• Portföy kayıtlarınız yalnızca telefonunuzun yerel depolamasında '
+            'tutulur; sunucularımıza gönderilmez.\n'
+            '• Uygulamayı sildiğinizde tüm verileriniz cihazınızla birlikte '
+            'silinir.\n'
+            '• Piyasa fiyatları için üçüncü taraf açık veri sağlayıcılarına '
+            'HTTP çağrısı yapılır; yalnızca istenen sembol iletilir, kişisel '
+            'bilginiz gönderilmez.\n'
+            '• Reklam, analitik veya üçüncü taraf takip SDK\'sı YOKTUR.\n\n'
+            '📱 SORUMLULUK REDDİ\n\n'
+            'Uygulama "olduğu gibi" sunulmuştur. Kesintisiz çalışacağına, '
+            'hatasız olacağına dair garanti verilmez. Kullanımdan doğabilecek '
+            'doğrudan veya dolaylı zararlar için geliştirici sorumlu değildir.\n\n'
+            'Detaylı sürüm ve iletişim: $_supportEmail',
+            style: TextStyle(fontSize: 13, height: 1.5),
           ),
         ),
         actions: [
