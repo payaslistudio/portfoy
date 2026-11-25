@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T04:54:46.021836Z",
-  "count": 1124,
+  "updated": "2026-11-25T03:40:36.414272Z",
+  "count": 1377,
   "prices": {
     "HAI": {
       "price": 0.878201,
@@ -92,6 +92,12 @@
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
     },
+    "APJ": {
+      "price": 6.103267,
+      "name": "AK PORTFÖY BIST ŞİRKETLERİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "BDY": {
       "price": 1.3867,
       "name": "AK PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
@@ -103,6 +109,12 @@
       "name": "AK PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
+    },
+    "ARL": {
+      "price": 17.679538,
+      "name": "AK PORTFÖY BİRİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "BHE": {
       "price": 1.489357,
@@ -158,6 +170,12 @@
       "type": "YAT",
       "kind": "Değişken Fon"
     },
+    "GUM": {
+      "price": 8.819505,
+      "name": "AK PORTFÖY GÜMÜŞ FON SEPETI FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "GMI": {
       "price": 0.948603,
       "name": "AK PORTFÖY GÜMÜŞ SERBEST FON",
@@ -181,6 +199,12 @@
       "name": "AK PORTFÖY İKİNCİ DEĞİŞKEN FON",
       "type": "YAT",
       "kind": "Değişken Fon"
+    },
+    "ARM": {
+      "price": 19.957911,
+      "name": "AK PORTFÖY İKİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "BRR": {
       "price": 1.833381,
@@ -254,6 +278,12 @@
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "AES": {
+      "price": 0.199594,
+      "name": "AK PORTFÖY PETROL YABANCI BYF FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Yabancı Fon Sepeti Fonu"
+    },
     "DTZ": {
       "price": 4.52012,
       "name": "AK PORTFÖY ROBOTİK TEKNOLOJİLER DEĞİŞKEN FON",
@@ -301,6 +331,12 @@
       "name": "AK PORTFÖY UZUN VADELİ SERBEST (DÖVİZ) FON",
       "type": "YAT",
       "kind": "Serbest Fon"
+    },
+    "ODV": {
+      "price": 20.599659,
+      "name": "AK PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "BGP": {
       "price": 7.17941,
@@ -357,7 +393,7 @@
       "kind": "Hisse Senedi Yoğun"
     },
     "MJB": {
-      "price": 6.580899,
+      "price": 6.669228,
       "name": "AKTİF PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -399,13 +435,13 @@
       "kind": "Serbest Fon"
     },
     "MJH": {
-      "price": 4.779751,
+      "price": 4.768528,
       "name": "AKTİF PORTFÖY FORTUNA SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
     },
     "MJG": {
-      "price": 7.749209,
+      "price": 7.862271,
       "name": "AKTİF PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -429,7 +465,7 @@
       "kind": "Serbest Fon"
     },
     "EYT": {
-      "price": 2.928911,
+      "price": 2.948547,
       "name": "AKTİF PORTFÖY İKİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -441,7 +477,7 @@
       "kind": "Para Piyasası Fonu"
     },
     "SPT": {
-      "price": 2.1387,
+      "price": 2.150112,
       "name": "AKTİF PORTFÖY KATILIM FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -483,13 +519,13 @@
       "kind": "Para Piyasası Fonu"
     },
     "GPT": {
-      "price": 2.313716,
+      "price": 2.315546,
       "name": "AKTİF PORTFÖY ROBOTİK TEKNOLOJİLERİ DEĞİŞKEN FON",
       "type": "YAT",
       "kind": "Değişken Fon"
     },
     "MTS": {
-      "price": 2.510058,
+      "price": 2.529081,
       "name": "AKTİF PORTFÖY TARIM VE SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -507,7 +543,7 @@
       "kind": "Serbest Fon"
     },
     "GLC": {
-      "price": 4.455939,
+      "price": 4.483455,
       "name": "AKTİF PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -579,7 +615,7 @@
       "kind": "Değişken Fon"
     },
     "BFE": {
-      "price": 1.682576,
+      "price": 1.679964,
       "name": "ALLBATROSS PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -746,11 +782,95 @@
       "type": "YAT",
       "kind": "Para Piyasası Fonu"
     },
+    "PKF": {
+      "price": 4.342206,
+      "name": "ATA PORTFÖY ALTIN KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
     "THV": {
       "price": 33.339651,
       "name": "ATA PORTFÖY BARBAROS HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Serbest Fon"
+    },
+    "AED": {
+      "price": 106.26714,
+      "name": "ATA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "ANZ": {
+      "price": 22.560401,
+      "name": "ATA PORTFÖY DÖRDÜNCÜ SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "URA": {
+      "price": 1.396317,
+      "name": "ATA PORTFÖY ENERJİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "AAS": {
+      "price": 12.689843,
+      "name": "ATA PORTFÖY FON SEPETİ SERBEST FONU",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "JET": {
+      "price": 2.065089,
+      "name": "ATA PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "AAV": {
+      "price": 56.169269,
+      "name": "ATA PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "AYA": {
+      "price": 15.519667,
+      "name": "ATA PORTFÖY KAR PAYI ÖDEYEN HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "TLZ": {
+      "price": 15.491409,
+      "name": "ATA PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "PKP": {
+      "price": 1.350752,
+      "name": "ATA PORTFÖY PARA PİYASASI KATILIM SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "DGH": {
+      "price": 11.874383,
+      "name": "ATA PORTFÖY PARA PİYASASI SERBEST (TL) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "AAL": {
+      "price": 3.775584,
+      "name": "ATA PORTFÖY PARA PİYASASI (TL) FONU",
+      "type": "YAT",
+      "kind": "Para Piyasası Fonu"
+    },
+    "RTG": {
+      "price": 4.760546,
+      "name": "ATA PORTFÖY ROBOTİK TEKNOLOJİLERİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "YLC": {
+      "price": 3.429934,
+      "name": "ATA PORTFÖY TARIM VE GIDA DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
     },
     "TAL": {
       "price": 2.45258,
@@ -789,7 +909,7 @@
       "kind": "Borçlanma Araçları Fonu"
     },
     "PFS": {
-      "price": 2.602468,
+      "price": 2.616944,
       "name": "ATLAS PORTFÖY FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -861,7 +981,7 @@
       "kind": "Serbest Fon"
     },
     "IYB": {
-      "price": 5.244022,
+      "price": 5.243906,
       "name": "AURA PORTFÖY DEĞİŞKEN FONU",
       "type": "YAT",
       "kind": "Değişken Fon"
@@ -873,7 +993,7 @@
       "kind": "Serbest Fon"
     },
     "TLH": {
-      "price": 21.122649,
+      "price": 21.122238,
       "name": "AURA PORTFÖY HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
@@ -909,7 +1029,7 @@
       "kind": "Katılım Fonu"
     },
     "SFS": {
-      "price": 1.338549,
+      "price": 1.341296,
       "name": "AZİMUT PORTFÖY AGRESİF FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -951,7 +1071,7 @@
       "kind": "Değişken Fon"
     },
     "AHV": {
-      "price": 21.65717,
+      "price": 21.688945,
       "name": "AZİMUT PORTFÖY DENGELİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -969,7 +1089,7 @@
       "kind": "Serbest Fon"
     },
     "GBZ": {
-      "price": 3.19879,
+      "price": 3.201641,
       "name": "AZİMUT PORTFÖY EMTİA FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -1065,13 +1185,13 @@
       "kind": "Hisse Senedi Fonu"
     },
     "TEJ": {
-      "price": 2.446122,
+      "price": 2.448003,
       "name": "AZİMUT PORTFÖY TEKNOLOJİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
     },
     "TMU": {
-      "price": 1.482282,
+      "price": 1.483598,
       "name": "AZİMUT PORTFÖY TEMKİNLİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -1167,7 +1287,7 @@
       "kind": "Değişken Fon"
     },
     "DNF": {
-      "price": 1.466513,
+      "price": 1.467801,
       "name": "A1 CAPİTAL PORTFÖY DİNAMİK FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -1209,10 +1329,16 @@
       "kind": "Serbest Fon"
     },
     "BPV": {
-      "price": 1.068295,
+      "price": 1.069802,
       "name": "BTCTURK PORTFÖY PARA PİYASASI (TL) FONU",
       "type": "YAT",
       "kind": "Para Piyasası Fonu"
+    },
+    "YZE": {
+      "price": 0.933518,
+      "name": "BTCTURK PORTFÖY YAPAY ZEKA TEKNOLOJİLERİ ŞİRKETLERİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
     },
     "BLT": {
       "price": 1.682724,
@@ -1233,7 +1359,7 @@
       "kind": "Değişken Fon"
     },
     "BUB": {
-      "price": 1.146943,
+      "price": 1.157662,
       "name": "BULLS PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -1299,7 +1425,7 @@
       "kind": "Katılım Fonu"
     },
     "BVD": {
-      "price": 1.322496,
+      "price": 1.335571,
       "name": "BV PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "type": "YAT",
       "kind": "Değişken Fon"
@@ -1335,7 +1461,7 @@
       "kind": "Değişken Fon"
     },
     "BHI": {
-      "price": 2.550498,
+      "price": 2.550496,
       "name": "BV PORTFÖY MUTLAK GETİRİ HEDEFLİ HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -1431,7 +1557,7 @@
       "kind": "Değişken Fon"
     },
     "BRF": {
-      "price": 1.489742,
+      "price": 1.490336,
       "name": "DENİZ PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -1473,7 +1599,7 @@
       "kind": "Katılım Fonu"
     },
     "DSP": {
-      "price": 14.473114,
+      "price": 14.54252,
       "name": "DENİZ PORTFÖY DENGELİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -1503,7 +1629,7 @@
       "kind": "Değişken Fon"
     },
     "DHM": {
-      "price": 4.934655,
+      "price": 4.933702,
       "name": "DENİZ PORTFÖY ESG-SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -1521,7 +1647,7 @@
       "kind": "Serbest Fon"
     },
     "DMG": {
-      "price": 4.855038,
+      "price": 4.85879,
       "name": "DENİZ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -1809,13 +1935,13 @@
       "kind": "Katılım Fonu"
     },
     "EPK": {
-      "price": 1.110337,
+      "price": 1.111935,
       "name": "EMAA BLUE PORTFÖY KIYMETLİ MADENLER KATILIM FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
     },
     "MOZ": {
-      "price": 1.186312,
+      "price": 1.186333,
       "name": "EMAA BLUE PORTFÖY MOZAİK SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -1875,7 +2001,7 @@
       "kind": "Altın Fonu"
     },
     "FZJ": {
-      "price": 5.642575,
+      "price": 5.662033,
       "name": "FİBA PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -1923,13 +2049,13 @@
       "kind": "Serbest Fon"
     },
     "FSH": {
-      "price": 4.472113,
+      "price": 4.495425,
       "name": "FİBA PORTFÖY FON SEPETİ SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
     },
     "FPG": {
-      "price": 1.533057,
+      "price": 1.53327,
       "name": "FİBA PORTFÖY GÜMÜŞ SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -1953,7 +2079,7 @@
       "kind": "Borçlanma Araçları Fonu"
     },
     "MDF": {
-      "price": 1.239002,
+      "price": 1.242909,
       "name": "FİBA PORTFÖY MODEL EMTİA FON SEPETİ SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -1977,7 +2103,7 @@
       "kind": "Serbest Fon"
     },
     "FBZ": {
-      "price": 4.355578,
+      "price": 4.341952,
       "name": "FİBA PORTFÖY TEKNOLOJİ SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -2054,6 +2180,18 @@
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
     },
+    "GPB": {
+      "price": 12.830465,
+      "name": "GARANTİ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "GZP": {
+      "price": 7.727139,
+      "name": "GARANTİ PORTFÖY BİRİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "GBH": {
       "price": 3.555051,
       "name": "GARANTİ PORTFÖY BİRİNCİ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
@@ -2072,6 +2210,12 @@
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
     },
+    "GBV": {
+      "price": 11.782081,
+      "name": "GARANTİ PORTFÖY BLOCKCHAİN TEKNOLOJİLERİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
     "GA1": {
       "price": 2.160637,
       "name": "GARANTİ PORTFÖY BORÇLANMA ARAÇLARI FONU",
@@ -2084,11 +2228,29 @@
       "type": "YAT",
       "kind": "Katılım Fonu"
     },
+    "GVA": {
+      "price": 3.482487,
+      "name": "GARANTİ PORTFÖY ELEKTRİKLİ VE OTONOM ARAÇLAR DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "GZE": {
+      "price": 7.199857,
+      "name": "GARANTİ PORTFÖY EMTİA SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
     "GNS": {
       "price": 1.266309,
       "name": "GARANTİ PORTFÖY ENERJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
+    },
+    "GZV": {
+      "price": 8.246607,
+      "name": "GARANTİ PORTFÖY ESG SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "GPA": {
       "price": 24.178245,
@@ -2096,11 +2258,29 @@
       "type": "YAT",
       "kind": "Borçlanma Araçları Fonu"
     },
+    "GZZ": {
+      "price": 6.462521,
+      "name": "GARANTİ PORTFÖY FİNANSAL TEKNOLOJİLER DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
     "GIE": {
       "price": 3.320044,
       "name": "GARANTİ PORTFÖY GARANTİ BBVA İKLİM ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
+    },
+    "GTZ": {
+      "price": 8.203913,
+      "name": "GARANTİ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "GUK": {
+      "price": 1.006567,
+      "name": "GARANTİ PORTFÖY GÜMÜŞ KATILIM SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
     },
     "GHS": {
       "price": 33.893874,
@@ -2114,11 +2294,29 @@
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
     },
+    "GPI": {
+      "price": 18.67812,
+      "name": "GARANTİ PORTFÖY İKİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "GZJ": {
+      "price": 8.383332,
+      "name": "GARANTİ PORTFÖY İKİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "PIP": {
       "price": 1.847384,
       "name": "GARANTİ PORTFÖY İKİNCİ PARA PİYASASI SERBEST (TL) FON",
       "type": "YAT",
       "kind": "Serbest Fon"
+    },
+    "GID": {
+      "price": 1.312976,
+      "name": "GARANTİ PORTFÖY İNŞAAT SEKTÖRÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Değişken Fon"
     },
     "GKG": {
       "price": 1.281028,
@@ -2137,6 +2335,18 @@
       "name": "GARANTİ PORTFÖY KATILIM SERBEST (DÖVİZ) FON",
       "type": "YAT",
       "kind": "Serbest Fon"
+    },
+    "MET": {
+      "price": 5.674933,
+      "name": "GARANTİ PORTFÖY METAVERSE VE YENİ TEKNOLOJİLER DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "GAH": {
+      "price": 12.740916,
+      "name": "GARANTİ PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
     },
     "MUT": {
       "price": 2.105134,
@@ -2174,17 +2384,35 @@
       "type": "YAT",
       "kind": "Katılım Fonu"
     },
+    "GZG": {
+      "price": 7.527515,
+      "name": "GARANTİ PORTFÖY SAĞLIK VE GENETİK TEKNOLOJİLERİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
     "EUZ": {
       "price": 63.219439,
       "name": "GARANTİ PORTFÖY SERBEST (DÖVİZ-AVRO) FON",
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "SGT": {
+      "price": 1.961825,
+      "name": "GARANTİ PORTFÖY SİBER GÜVENLİK TEKNOLOJİLERİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
     "GZR": {
       "price": 10.093106,
       "name": "GARANTİ PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
+    },
+    "GZL": {
+      "price": 5.16681,
+      "name": "GARANTİ PORTFÖY TARIM VE GIDA SEKTÖRÜ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
     },
     "GRT": {
       "price": 1.077762,
@@ -2198,11 +2426,35 @@
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
     },
+    "GZH": {
+      "price": 4.258324,
+      "name": "GARANTİ PORTFÖY TEMİZ ENERJİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "GTY": {
+      "price": 5.8525,
+      "name": "GARANTİ PORTFÖY TREND SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "GZY": {
+      "price": 8.062553,
+      "name": "GARANTİ PORTFÖY TURİZM VE SEYAHAT SEKTÖRÜ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
     "GUV": {
       "price": 1.841536,
       "name": "GARANTİ PORTFÖY UZUN VADELİ BORÇLANMA ARAÇLARI FONU",
       "type": "YAT",
       "kind": "Borçlanma Araçları Fonu"
+    },
+    "GPC": {
+      "price": 75.086072,
+      "name": "GARANTİ PORTFÖY UZUN VADELİ SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
     },
     "EUN": {
       "price": 63.336683,
@@ -2210,11 +2462,35 @@
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "GPU": {
+      "price": 20.572987,
+      "name": "GARANTİ PORTFÖY ÜÇÜNCÜ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "GVI": {
+      "price": 5.181828,
+      "name": "GARANTİ PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "GPZ": {
       "price": 2.1571,
       "name": "GARANTİ PORTFÖY ÜÇÜNCÜ PARA PİYASASI FONU",
       "type": "YAT",
       "kind": "Para Piyasası Fonu"
+    },
+    "GUH": {
+      "price": 0.386135,
+      "name": "GARANTİ PORTFÖY YABANCI TEKNOLOJİ HİSSE SENEDİ FONU",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "YIT": {
+      "price": 2.23649,
+      "name": "GARANTİ PORTFÖY YARI İLETKEN TEKNOLOJİLERİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
     },
     "GNH": {
       "price": 1.015855,
@@ -2276,6 +2552,198 @@
       "type": "YAT",
       "kind": "Katılım Fonu"
     },
+    "GLL": {
+      "price": 0.930483,
+      "name": "GOLDEN GLOBAL PORTFÖY ALTIN KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "GOK": {
+      "price": 1.067015,
+      "name": "GOLDEN GLOBAL PORTFÖY KISA VADELİ KİRA SERTİFİKALARI KATILIM FONU",
+      "type": "YAT",
+      "kind": "Kisa Vadeli Kira Sertifikalari Katilim Fonu"
+    },
+    "GOP": {
+      "price": 1.29986,
+      "name": "GOLDEN GLOBAL PORTFÖY PARA PİYASASI KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "HGR": {
+      "price": 1.456721,
+      "name": "HEDEF PORTFÖY ALGORİTMİK STRATEJİLER SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HAM": {
+      "price": 2.858486,
+      "name": "HEDEF PORTFÖY ALTIN KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "HCV": {
+      "price": 0.996236,
+      "name": "HEDEF PORTFÖY ATAK ÇOKLU VARLIK KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "HAT": {
+      "price": 0.120183,
+      "name": "HEDEF PORTFÖY ATLAS İSTATİSTİKSEL ARBİTRAJ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HKM": {
+      "price": 0.073846,
+      "name": "HEDEF PORTFÖY BAŞAK HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HVK": {
+      "price": 4.52641,
+      "name": "HEDEF PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI (TL) FONU",
+      "type": "YAT",
+      "kind": "Borçlanma Araçları Fonu"
+    },
+    "HJB": {
+      "price": 4.407392,
+      "name": "HEDEF PORTFÖY BİRİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "NNF": {
+      "price": 18.21538,
+      "name": "HEDEF PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "HIM": {
+      "price": 0.223703,
+      "name": "HEDEF PORTFÖY BİRİNCİ İSTATİSTİKSEL ARBİTRAJ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HGV": {
+      "price": 4.205781,
+      "name": "HEDEF PORTFÖY BİRİNCİ SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HDA": {
+      "price": 0.30652,
+      "name": "HEDEF PORTFÖY DÖRDÜNCÜ İSTATİSTİKSEL ARBİTRAJ HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HMC": {
+      "price": 9.259736,
+      "name": "HEDEF PORTFÖY EKİNOKS SERBEST (TL) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HGM": {
+      "price": 3.529722,
+      "name": "HEDEF PORTFÖY İKİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "HFI": {
+      "price": 0.06617,
+      "name": "HEDEF PORTFÖY İKİNCİ KATILIM HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HIF": {
+      "price": 0.506717,
+      "name": "HEDEF PORTFÖY İKİNCİ SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HIA": {
+      "price": 1.541662,
+      "name": "HEDEF PORTFÖY İSTATİSTİKSEL ARBİTRAJ SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HKH": {
+      "price": 7.301816,
+      "name": "HEDEF PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "KVK": {
+      "price": 1.358386,
+      "name": "HEDEF PORTFÖY KATILIM İSTATİSTİKSEL ARBİTRAJ SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HML": {
+      "price": 50.39299,
+      "name": "HEDEF PORTFÖY KATILIM SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KSA": {
+      "price": 1.130738,
+      "name": "HEDEF PORTFÖY KISA VADELİ SERBEST (TL) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HP3": {
+      "price": 62.441007,
+      "name": "HEDEF PORTFÖY LİDYA SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "FNT": {
+      "price": 0.028355,
+      "name": "HEDEF PORTFÖY MODEL HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HPH": {
+      "price": 0.615413,
+      "name": "HEDEF PORTFÖY PARA PİYASASI KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "HKJ": {
+      "price": 0.667101,
+      "name": "HEDEF PORTFÖY PARA PİYASASI SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HYV": {
+      "price": 0.205587,
+      "name": "HEDEF PORTFÖY PARA PİYASASI (TL) FONU",
+      "type": "YAT",
+      "kind": "Para Piyasası Fonu"
+    },
+    "SOS": {
+      "price": 1.587106,
+      "name": "HEDEF PORTFÖY SAĞLIK SEKTÖRÜ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "HTJ": {
+      "price": 1.686573,
+      "name": "HEDEF PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "DUH": {
+      "price": 0.045324,
+      "name": "HEDEF PORTFÖY UFUK HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HDK": {
+      "price": 0.036328,
+      "name": "HEDEF PORTFÖY VEGA İSTATİSTİKSEL ARBİTRAJ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
     "HST": {
       "price": 1.078884,
       "name": "HSBC PORTFÖY  BORÇLANMA ARAÇLARI (TL) FONU",
@@ -2283,10 +2751,22 @@
       "kind": "Borçlanma Araçları Fonu"
     },
     "HBF": {
-      "price": 45.615335,
+      "price": 46.057832,
       "name": "HSBC PORTFÖY ALTIN FONU",
       "type": "YAT",
       "kind": "Altın Fonu"
+    },
+    "HTS": {
+      "price": 55.605712,
+      "name": "HSBC PORTFÖY ALTINCI SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "HBN": {
+      "price": 4.370216,
+      "name": "HSBC PORTFÖY BİRİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "HBU": {
       "price": 1.208299,
@@ -2361,7 +2841,7 @@
       "kind": "Değişken Fon"
     },
     "HOY": {
-      "price": 0.348751,
+      "price": 0.357025,
       "name": "HSBC PORTFÖY YABANCI BYF FON SEPETI",
       "type": "YAT",
       "kind": "Yabancı Fon Sepeti Fonu"
@@ -2409,7 +2889,7 @@
       "kind": "Değişken Fon"
     },
     "GJB": {
-      "price": 9.331334,
+      "price": 9.340564,
       "name": "INVEO PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -2439,7 +2919,7 @@
       "kind": "Katılım Fonu"
     },
     "IUH": {
-      "price": 5.552487,
+      "price": 5.569553,
       "name": "INVEO PORTFÖY DÖNÜŞTÜRÜCÜ TEKNOLOJİLER FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -2499,7 +2979,7 @@
       "kind": "Hisse Senedi Fonu"
     },
     "ICO": {
-      "price": 1.049742,
+      "price": 1.050527,
       "name": "İNCİR PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -2552,8 +3032,14 @@
       "type": "YAT",
       "kind": "Değişken Fon"
     },
+    "IRF": {
+      "price": 6.620408,
+      "name": "İSTANBUL PORTFÖY BİRİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "IZB": {
-      "price": 8.755383,
+      "price": 8.757887,
       "name": "İSTANBUL PORTFÖY BİRİNCİ FON SEPETİ SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -2624,6 +3110,12 @@
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "YCY": {
+      "price": 3.859964,
+      "name": "İSTANBUL PORTFÖY KATILIM FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "IVF": {
       "price": 5.193014,
       "name": "İSTANBUL PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
@@ -2635,6 +3127,12 @@
       "name": "İSTANBUL PORTFÖY KISA VADELİ BORÇLANMA ARAÇLARI (TL) FONU",
       "type": "YAT",
       "kind": "Borçlanma Araçları Fonu"
+    },
+    "IMF": {
+      "price": 5.699176,
+      "name": "İSTANBUL PORTFÖY MAESTRO SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
     },
     "ILU": {
       "price": 1.001078,
@@ -2673,7 +3171,7 @@
       "kind": "Değişken Fon"
     },
     "IAM": {
-      "price": 1.709083,
+      "price": 1.71115,
       "name": "İŞ PORTFÖY AGRESİF FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -2697,7 +3195,7 @@
       "kind": "Değişken Fon"
     },
     "IPG": {
-      "price": 9.674862,
+      "price": 9.709729,
       "name": "İŞ PORTFÖY ATAK FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -2763,7 +3261,7 @@
       "kind": "Değişken Fon"
     },
     "KKH": {
-      "price": 6.816519,
+      "price": 6.845805,
       "name": "İŞ PORTFÖY DENGELİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -2799,7 +3297,7 @@
       "kind": "Borçlanma Araçları Fonu"
     },
     "GUF": {
-      "price": 0.661411,
+      "price": 0.662267,
       "name": "İŞ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -2955,7 +3453,7 @@
       "kind": "Hisse Senedi Fonu"
     },
     "TMZ": {
-      "price": 1.790222,
+      "price": 1.792983,
       "name": "İŞ PORTFÖY SÜRDÜRÜLEBİLİRLİK VE TARIM FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -2985,7 +3483,7 @@
       "kind": "Değişken Fon"
     },
     "ILZ": {
-      "price": 8.607551,
+      "price": 8.640666,
       "name": "İŞ PORTFÖY TEMKİNLİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -3056,6 +3554,258 @@
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "KHB": {
+      "price": 1.150152,
+      "name": "KARE PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "KRC": {
+      "price": 0.154301,
+      "name": "KARE PORTFÖY BİRİNCİ BORÇLANMA ARAÇLARI FONU",
+      "type": "YAT",
+      "kind": "Borçlanma Araçları Fonu"
+    },
+    "KRF": {
+      "price": 21.458438,
+      "name": "KARE PORTFÖY BİRİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "KCL": {
+      "price": 1.65074,
+      "name": "KARE PORTFÖY ÇOKLU VARLIK KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KUB": {
+      "price": 0.757167,
+      "name": "KARE PORTFÖY DEĞİŞKEN  (DÖVİZ) FONU",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "KYA": {
+      "price": 1.026896,
+      "name": "KARE PORTFÖY HİSSE SENEDİ FONU(HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "KIH": {
+      "price": 1.729064,
+      "name": "KARE PORTFÖY İSTATİSTİKSEL ARBİTRAJ SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KKC": {
+      "price": 57.176365,
+      "name": "KARE PORTFÖY KATILIM SERBEST (DÖVİZ-AVRO) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KPP": {
+      "price": 3.363817,
+      "name": "KARE PORTFÖY PARA PİYASASI FONU",
+      "type": "YAT",
+      "kind": "Para Piyasası Fonu"
+    },
+    "KRS": {
+      "price": 0.524923,
+      "name": "KARE PORTFÖY SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KRT": {
+      "price": 77.472437,
+      "name": "KARE PORTFÖY TÜRKİYE ODAKLI SERBEST (DÖVİZ ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KP3": {
+      "price": 52.686732,
+      "name": "KARE PORTFÖY ÜÇÜNCÜ SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KYS": {
+      "price": 55.832843,
+      "name": "KARE PORTFÖY YEDİNCİ SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KUA": {
+      "price": 1.282482,
+      "name": "KUVEYT TÜRK PORTFÖY AGRESİF KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KZL": {
+      "price": 25.467439,
+      "name": "KUVEYT TÜRK PORTFÖY ALTIN KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KAV": {
+      "price": 57.709544,
+      "name": "KUVEYT TÜRK PORTFÖY ALTINCI KATILIM SERBEST (DÖVİZ-AVRO) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KDL": {
+      "price": 55.79097,
+      "name": "KUVEYT TÜRK PORTFÖY BEŞİNCİ KATILIM SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KTR": {
+      "price": 11.61261,
+      "name": "KUVEYT TÜRK PORTFÖY BİRİNCİ KATILIM SERBEST (TL) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KTM": {
+      "price": 21.472712,
+      "name": "KUVEYT TÜRK PORTFÖY BİRİNCİ KATILIM (TL) FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KCV": {
+      "price": 5.166415,
+      "name": "KUVEYT TÜRK PORTFÖY ÇOKLU VARLIK KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KDE": {
+      "price": 1.74495,
+      "name": "KUVEYT TÜRK PORTFÖY DENGELİ KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KUD": {
+      "price": 1.645905,
+      "name": "KUVEYT TÜRK PORTFÖY DİNAMİK KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KTT": {
+      "price": 74.580913,
+      "name": "KUVEYT TÜRK PORTFÖY DÖRDÜNCÜ KATILIM SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KLK": {
+      "price": 0.962347,
+      "name": "KUVEYT TÜRK PORTFÖY ELEKTRİFİKASYON KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KNJ": {
+      "price": 1.862408,
+      "name": "KUVEYT TÜRK PORTFÖY ENERJİ KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KGM": {
+      "price": 2.073136,
+      "name": "KUVEYT TÜRK PORTFÖY GÜMÜŞ KATILIM FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "KZU": {
+      "price": 2.163948,
+      "name": "KUVEYT TÜRK PORTFÖY İKİNCİ ALTIN KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KIK": {
+      "price": 1.350587,
+      "name": "KUVEYT TÜRK PORTFÖY İKİNCİ KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KPU": {
+      "price": 3.276262,
+      "name": "KUVEYT TÜRK PORTFÖY İKİNCİ KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "KPA": {
+      "price": 1.378534,
+      "name": "KUVEYT TÜRK PORTFÖY KAR PAYI ÖDEYEN KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "KPD": {
+      "price": 50.607761,
+      "name": "KUVEYT TÜRK PORTFÖY KAR PAYI ÖDEYEN KATILIM SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KTS": {
+      "price": 13.067312,
+      "name": "KUVEYT TÜRK PORTFÖY KATILIM HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KPC": {
+      "price": 18.077115,
+      "name": "KUVEYT TÜRK PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Yoğun"
+    },
+    "KSV": {
+      "price": 6.268988,
+      "name": "KUVEYT TÜRK PORTFÖY KISA VADELİ KATILIM SERBEST (TL) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "KTV": {
+      "price": 8.410782,
+      "name": "KUVEYT TÜRK PORTFÖY KISA VADELİ KİRA SERTİFİKALARI KATILIM (TL) FONU",
+      "type": "YAT",
+      "kind": "Kisa Vadeli Kira Sertifikalari Katilim Fonu"
+    },
+    "KUT": {
+      "price": 9.833591,
+      "name": "KUVEYT TÜRK PORTFÖY KIYMETLİ MADENLER KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KTN": {
+      "price": 8.500507,
+      "name": "KUVEYT TÜRK PORTFÖY KİRA SERTİFİKALARI KATILIM (TL) FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KLU": {
+      "price": 5.300315,
+      "name": "KUVEYT TÜRK PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KSR": {
+      "price": 4.984932,
+      "name": "KUVEYT TÜRK PORTFÖY SÜRDÜRÜLEBİLİRLİK KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KTJ": {
+      "price": 2.481804,
+      "name": "KUVEYT TÜRK PORTFÖY TEKNOLOJİ KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KME": {
+      "price": 1.694624,
+      "name": "KUVEYT TÜRK PORTFÖY TEMKİNLİ KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "KU3": {
+      "price": 0.985953,
+      "name": "KUVEYT TÜRK PORTFÖY ÜÇÜNCÜ KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
     "IDD": {
       "price": 0.148449,
       "name": "LOGOS PORTFÖY DİNAMİK DAĞIMLI SERBEST FON",
@@ -3079,6 +3829,30 @@
       "name": "MARMARA CAPİTAL PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
+    },
+    "MAD": {
+      "price": 0.91404,
+      "name": "MEKSA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "MBL": {
+      "price": 0.314293,
+      "name": "MEKSA PORTFÖY İKİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "MPI": {
+      "price": 3.383411,
+      "name": "MEKSA PORTFÖY İSTATİSTİKSEL ARBİTRAJ SERBEST (TL) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "MPP": {
+      "price": 20.058716,
+      "name": "MEKSA PORTFÖY PRİME SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
     },
     "MHF": {
       "price": 1.122715,
@@ -3170,6 +3944,12 @@
       "type": "YAT",
       "kind": "Değişken Fon"
     },
+    "NHP": {
+      "price": 5.8305,
+      "name": "NEO PORTFÖY BİRİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "NHY": {
       "price": 4.145091,
       "name": "NEO PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
@@ -3194,9 +3974,27 @@
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "NBO": {
+      "price": 1.650534,
+      "name": "NEO PORTFÖY BORÇLANMA ARACI FONLARI FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "DRA": {
-      "price": 1.143155,
+      "price": 1.143056,
       "name": "NEO PORTFÖY DORA SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "NEE": {
+      "price": 0.955929,
+      "name": "NEO PORTFÖY ENERJİ VE EMTİA ŞİRKETLERİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "NFF": {
+      "price": 1.734335,
+      "name": "NEO PORTFÖY FON SEPETİ SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
     },
@@ -3291,7 +4089,7 @@
       "kind": "Serbest Fon"
     },
     "NVC": {
-      "price": 2.769563,
+      "price": 2.934744,
       "name": "NEO PORTFÖY VENTO SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -3398,17 +4196,47 @@
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "FAL": {
+      "price": 1.110828,
+      "name": "ONE PORTFÖY ALTIN FONU",
+      "type": "YAT",
+      "kind": "Altın Ve Diğer Kıymetli Madenler Fonu"
+    },
+    "FD1": {
+      "price": 1.868918,
+      "name": "ONE PORTFÖY BİRİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
     "GO1": {
-      "price": 4.563765,
+      "price": 4.56521,
       "name": "ONE PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
+    },
+    "GO9": {
+      "price": 2.209395,
+      "name": "ONE PORTFÖY BİRİNCİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
     },
     "FS5": {
       "price": 1.687349,
       "name": "ONE PORTFÖY BİRİNCİ İSTATİSTİKSEL ARBİTRAJ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Serbest Fon"
+    },
+    "FCK": {
+      "price": 1.505579,
+      "name": "ONE PORTFÖY ÇOKLU VARLIK KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "GO4": {
+      "price": 4.669827,
+      "name": "ONE PORTFÖY DÖRDÜNCÜ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "FP4": {
       "price": 0.418106,
@@ -3422,6 +4250,30 @@
       "type": "YAT",
       "kind": "Değişken Fon"
     },
+    "FS6": {
+      "price": 1.835485,
+      "name": "ONE PORTFÖY İKİNCİ İSTATİSTİKSEL ARBİTRAJ SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "FBC": {
+      "price": 1.465496,
+      "name": "ONE PORTFÖY KAR PAYI ÖDEYEN KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "FTL": {
+      "price": 1.679274,
+      "name": "ONE PORTFÖY PARA PİYASASI KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "GO6": {
+      "price": 3.934113,
+      "name": "ONE PORTFÖY PARA PİYASASI (TL) FONU",
+      "type": "YAT",
+      "kind": "Para Piyasası Fonu"
+    },
     "OPF": {
       "price": 2.998171,
       "name": "OSMANLI PORTFÖY AGRESİF DEĞİŞKEN FON",
@@ -3429,7 +4281,7 @@
       "kind": "Değişken Fon"
     },
     "OIL": {
-      "price": 3.455379,
+      "price": 3.526231,
       "name": "OSMANLI PORTFÖY ALTIN FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -3453,7 +4305,7 @@
       "kind": "Değişken Fon"
     },
     "OLE": {
-      "price": 5.545843,
+      "price": 5.550521,
       "name": "OSMANLI PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -3471,7 +4323,7 @@
       "kind": "Serbest Fon"
     },
     "OIR": {
-      "price": 5.059311,
+      "price": 5.079208,
       "name": "OSMANLI PORTFÖY DENGELİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -3542,6 +4394,12 @@
       "type": "YAT",
       "kind": "Değişken Fon"
     },
+    "OFS": {
+      "price": 8.081312,
+      "name": "OYAK PORTFÖY BİRİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "OHB": {
       "price": 21.021069,
       "name": "OYAK PORTFÖY BİRİNCİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
@@ -3578,6 +4436,12 @@
       "type": "YAT",
       "kind": "Değişken Fon"
     },
+    "OFI": {
+      "price": 3.841403,
+      "name": "OYAK PORTFÖY İKİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "ODS": {
       "price": 71.606837,
       "name": "OYAK PORTFÖY İKİNCİ SERBEST(DÖVİZ) FON",
@@ -3589,6 +4453,12 @@
       "name": "OYAK PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
+    },
+    "OTJ": {
+      "price": 5.696618,
+      "name": "OYAK PORTFÖY KIYMETLİ MADENLER KATILIM FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "AP7": {
       "price": 2.881497,
@@ -3645,7 +4515,7 @@
       "kind": "Değişken Fon"
     },
     "PBI": {
-      "price": 1.997327,
+      "price": 2.006677,
       "name": "PARDUS PORTFÖY BİRİNCİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -3813,7 +4683,7 @@
       "kind": "Serbest Fon"
     },
     "PFO": {
-      "price": 2.18228,
+      "price": 2.182718,
       "name": "PHİLLİP PORTFÖY FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -3884,8 +4754,44 @@
       "type": "YAT",
       "kind": "Para Piyasası Fonu"
     },
+    "PA2": {
+      "price": 0.979032,
+      "name": "PUSULA PORTFÖY ALTIN KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "PKD": {
+      "price": 0.461821,
+      "name": "PUSULA PORTFÖY İKİNCİ KATILIM HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "PNU": {
+      "price": 1.25859,
+      "name": "PUSULA PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
+      "type": "YAT",
+      "kind": "Para Piyasası Fonu"
+    },
+    "PUK": {
+      "price": 1.113278,
+      "name": "PUSULA PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "PKM": {
+      "price": 1.119865,
+      "name": "PUSULA PORTFÖY PARA PİYASASI KATILIM (TL) FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "PRY": {
+      "price": 3.233059,
+      "name": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
+      "type": "YAT",
+      "kind": "Para Piyasası Fonu"
+    },
     "GRL": {
-      "price": 1.818329,
+      "price": 1.799432,
       "name": "QNB PORTFÖY AGRESİF SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -3915,7 +4821,7 @@
       "kind": "Hisse Senedi Fonu"
     },
     "FNO": {
-      "price": 0.213643,
+      "price": 0.21151,
       "name": "QNB PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "type": "YAT",
       "kind": "Değişken Fon"
@@ -3927,7 +4833,7 @@
       "kind": "Hisse Senedi Fonu"
     },
     "FPZ": {
-      "price": 73.634755,
+      "price": 73.634753,
       "name": "QNB PORTFÖY BİRİNCİ SERBEST (DÖVİZ) FON",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -3945,13 +4851,13 @@
       "kind": "Katılım Fonu"
     },
     "DNM": {
-      "price": 57.52793,
+      "price": 56.984919,
       "name": "QNB PORTFÖY DİNAMİK DAĞILIMLI SERBEST (DÖVİZ) FON",
       "type": "YAT",
       "kind": "Serbest Fon"
     },
     "OVD": {
-      "price": 3.286021,
+      "price": 3.285105,
       "name": "QNB PORTFÖY EMTİA FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -3963,7 +4869,7 @@
       "kind": "Borçlanma Araçları Fonu"
     },
     "FFP": {
-      "price": 7.733802,
+      "price": 7.768674,
       "name": "QNB PORTFÖY FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -3975,7 +4881,7 @@
       "kind": "Serbest Fon"
     },
     "HTK": {
-      "price": 0.935925,
+      "price": 0.935146,
       "name": "QNB PORTFÖY HAVACILIK VE SAVUNMA TEKNOLOJİLERİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -4017,7 +4923,7 @@
       "kind": "Serbest Fon"
     },
     "OJT": {
-      "price": 11.485192,
+      "price": 11.480025,
       "name": "QNB PORTFÖY TEKNOLOJİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -4149,7 +5055,7 @@
       "kind": "Katılım Fonu"
     },
     "RTD": {
-      "price": 1.704851,
+      "price": 1.692399,
       "name": "RE-PIE PORTFÖY TEKNOLOJİ DEĞİŞKEN FON",
       "type": "YAT",
       "kind": "Değişken Fon"
@@ -4203,7 +5109,7 @@
       "kind": "Serbest Fon"
     },
     "RFM": {
-      "price": 1.049505,
+      "price": 1.049467,
       "name": "ROTA PORTFÖY ENERJİ VE METAL FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -4299,7 +5205,7 @@
       "kind": "Para Piyasası Fonu"
     },
     "PIL": {
-      "price": 3.234677,
+      "price": 3.245959,
       "name": "ROTA PORTFÖY PİL TEKNOLOJİLERİ VE ENERJİ FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -4319,6 +5225,18 @@
     "RLH": {
       "price": 1.807448,
       "name": "ROTA PORTFÖY YİRMİNCİ SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "SD1": {
+      "price": 0.907496,
+      "name": "SPARTA PORTFÖY BİRİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "SBH": {
+      "price": 1.816204,
+      "name": "SPARTA PORTFÖY BİRİNCİ HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Serbest Fon"
     },
@@ -4401,7 +5319,7 @@
       "kind": "Serbest Fon"
     },
     "NOI": {
-      "price": 1.698355,
+      "price": 1.698299,
       "name": "TACİRLER PORTFÖY NOVA İSTATİSTİKSEL ARBİTRAJ SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -4425,10 +5343,22 @@
       "kind": "Serbest Fon"
     },
     "TUA": {
-      "price": 1.308247,
+      "price": 1.308248,
       "name": "TEB PORTFÖY ALTIN FONU",
       "type": "YAT",
       "kind": "Altın Fonu"
+    },
+    "TJT": {
+      "price": 68.266702,
+      "name": "TEB PORTFÖY ALTINCI SERBEST (DÖVİZ-AVRO) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "TFF": {
+      "price": 40.019994,
+      "name": "TEB PORTFÖY AMERİKA TEKNOLOJİ YABANCI BYF FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Yabancı Fon Sepeti Fonu"
     },
     "ICC": {
       "price": 1.305628,
@@ -4441,6 +5371,12 @@
       "name": "TEB PORTFÖY BIST BANKA ENDEKSİ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN)",
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
+    },
+    "TE4": {
+      "price": 7.087602,
+      "name": "TEB PORTFÖY BİRİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
     },
     "ICF": {
       "price": 170.468157,
@@ -4460,6 +5396,12 @@
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "TPJ": {
+      "price": 83.552399,
+      "name": "TEB PORTFÖY BİRİNCİ SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
     "TBT": {
       "price": 56.111167,
       "name": "TEB PORTFÖY BORÇLANMA ARAÇLARI FONU",
@@ -4471,6 +5413,18 @@
       "name": "TEB PORTFÖY DÖRDÜNCÜ DEĞİŞKEN FON",
       "type": "YAT",
       "kind": "Değişken Fon"
+    },
+    "TPL": {
+      "price": 22.09528,
+      "name": "TEB PORTFÖY EUROBOND (DÖVİZ) BORÇLANMA ARAÇLARI FONU",
+      "type": "YAT",
+      "kind": "Borçlanma Araçları Fonu"
+    },
+    "GMC": {
+      "price": 5.351205,
+      "name": "TEB PORTFÖY GÜMÜŞ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "TYH": {
       "price": 1.788656,
@@ -4484,11 +5438,59 @@
       "type": "YAT",
       "kind": "Altın Fonu"
     },
+    "IJH": {
+      "price": 7.586407,
+      "name": "TEB PORTFÖY ICBC TURKEY FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "ICE": {
       "price": 139.912979,
       "name": "TEB PORTFÖY ICBC TURKEY PARA PİYASASI (TL) FONU",
       "type": "YAT",
       "kind": "Para Piyasası Fonu"
+    },
+    "IDY": {
+      "price": 0.234553,
+      "name": "TEB PORTFÖY İKİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "TJI": {
+      "price": 5.922379,
+      "name": "TEB PORTFÖY İKİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "TPC": {
+      "price": 10.19422,
+      "name": "TEB PORTFÖY KIYMETLİ MADENLER FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "TPZ": {
+      "price": 30.188187,
+      "name": "TEB PORTFÖY KİRA SERTİFİKALARI (DÖVİZ) KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "MRI": {
+      "price": 1.185043,
+      "name": "TEB PORTFÖY MERİDYEN SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "TE3": {
+      "price": 38.639445,
+      "name": "TEB PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "MGH": {
+      "price": 2.316958,
+      "name": "TEB PORTFÖY MUTLAK GETİRİ HEDEFLİ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
     },
     "ICV": {
       "price": 6.425602,
@@ -4496,11 +5498,23 @@
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "SHE": {
+      "price": 3.03624,
+      "name": "TEB PORTFÖY ÖNCE KADIN DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
     "TOT": {
-      "price": 1043.549861,
+      "price": 1043.555607,
       "name": "TEB PORTFÖY ÖZEL SEKTÖR BORÇLANMA ARAÇLARI FONU",
       "type": "YAT",
       "kind": "Borçlanma Araçları Fonu"
+    },
+    "TPP": {
+      "price": 74.295286,
+      "name": "TEB PORTFÖY PUSULA SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
     },
     "ICS": {
       "price": 51.869703,
@@ -4508,11 +5522,29 @@
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "TJF": {
+      "price": 4.725432,
+      "name": "TEB PORTFÖY SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "IFN": {
       "price": 8.202985,
       "name": "TEB PORTFÖY SÜRDÜRÜLEBİLİRLİK HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
       "type": "YAT",
       "kind": "Hisse Senedi Fonu"
+    },
+    "MTX": {
+      "price": 4.645262,
+      "name": "TEB PORTFÖY ÜÇÜNCÜ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "TCF": {
+      "price": 4.918896,
+      "name": "TEB PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "TRJ": {
       "price": 2.27702,
@@ -4520,9 +5552,21 @@
       "type": "YAT",
       "kind": "Borçlanma Araçları Fonu"
     },
+    "FSU": {
+      "price": 1.093445,
+      "name": "TERA PORTFÖY FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "TMM": {
       "price": 67.571949,
       "name": "TERA PORTFÖY İKİNCİ SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "TRU": {
+      "price": 1.58515,
+      "name": "TERA PORTFÖY KATILIM SERBEST (DÖVİZ) FON",
       "type": "YAT",
       "kind": "Serbest Fon"
     },
@@ -4581,7 +5625,7 @@
       "kind": "Değişken Fon"
     },
     "USY": {
-      "price": 0.267535,
+      "price": 0.267523,
       "name": "ÜNLÜ PORTFÖY DEĞER YATIRIMLARI SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
@@ -4628,6 +5672,36 @@
       "type": "YAT",
       "kind": "Değişken Fon"
     },
+    "VFO": {
+      "price": 0.905945,
+      "name": "V PORTFÖY ALTIN KATILIM FONU",
+      "type": "YAT",
+      "kind": "Katılım Fonu"
+    },
+    "VPD": {
+      "price": 1.080302,
+      "name": "V PORTFÖY BİRİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "VPH": {
+      "price": 0.854898,
+      "name": "V PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "VPE": {
+      "price": 1.065446,
+      "name": "V PORTFÖY İKİNCİ DEĞİŞKEN FON",
+      "type": "YAT",
+      "kind": "Değişken Fon"
+    },
+    "VHK": {
+      "price": 0.78346,
+      "name": "V PORTFÖY KATILIM HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Hisse Senedi Fonu"
+    },
     "VLT": {
       "price": 0.915532,
       "name": "VAKIF KATILIM PORTFÖY ALTIN KATILIM FONU",
@@ -4657,6 +5731,30 @@
       "name": "VAKIF KATILIM PORTFÖY PARA PİYASASI KATILIM FONU",
       "type": "YAT",
       "kind": "Katılım Fonu"
+    },
+    "VNK": {
+      "price": 2.508374,
+      "name": "VEGA PORTFÖY ANKA SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "VMV": {
+      "price": 3.046991,
+      "name": "VEGA PORTFÖY MAVİ SERBEST FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "VPP": {
+      "price": 58.675024,
+      "name": "VEGA PORTFÖY PARLA SERBEST (DÖVİZ) FON",
+      "type": "YAT",
+      "kind": "Serbest Fon"
+    },
+    "VPS": {
+      "price": 0.693885,
+      "name": "VEGA PORTFÖY SALUR HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
+      "type": "YAT",
+      "kind": "Serbest Fon"
     },
     "YLR": {
       "price": 2.31335,
@@ -4723,6 +5821,12 @@
       "name": "YAPI KREDİ PORTFÖY BİRİNCİ DEĞİŞKEN FON",
       "type": "YAT",
       "kind": "Değişken Fon"
+    },
+    "YAN": {
+      "price": 15.432627,
+      "name": "YAPI KREDİ PORTFÖY BİRİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "YHS": {
       "price": 22.773909,
@@ -4807,6 +5911,18 @@
       "name": "YAPI KREDİ PORTFÖY GALATA SERBEST FON",
       "type": "YAT",
       "kind": "Serbest Fon"
+    },
+    "YZG": {
+      "price": 9.123482,
+      "name": "YAPI KREDİ PORTFÖY GÜMÜŞ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "YAC": {
+      "price": 13.985882,
+      "name": "YAPI KREDİ PORTFÖY İKİNCİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
     },
     "YIK": {
       "price": 1.685112,
@@ -4940,6 +6056,12 @@
       "type": "YAT",
       "kind": "Serbest Fon"
     },
+    "YJK": {
+      "price": 4.79085,
+      "name": "YAPI KREDİ PORTFÖY ROBOTİK VE YARI İLETKEN TEKNOLOJİLERİ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "YSO": {
       "price": 1.576223,
       "name": "YAPI KREDİ PORTFÖY SAĞLIK SEKTÖRÜ SERBEST FON",
@@ -5006,6 +6128,12 @@
       "type": "YAT",
       "kind": "Değişken Fon"
     },
+    "YPV": {
+      "price": 7.262694,
+      "name": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Fon Sepeti Fonu"
+    },
     "BIG": {
       "price": 1.223432,
       "name": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
@@ -5017,6 +6145,12 @@
       "name": "YAPI KREDİ PORTFÖY ÜÇÜNCÜ PARA PİYASASI (TL) FONU",
       "type": "YAT",
       "kind": "Para Piyasası Fonu"
+    },
+    "YTD": {
+      "price": 0.745508,
+      "name": "YAPI KREDİ PORTFÖY YABANCI FON SEPETİ FONU",
+      "type": "YAT",
+      "kind": "Yabancı Fon Sepeti Fonu"
     },
     "YAY": {
       "price": 1559.155829,
@@ -5109,19 +6243,19 @@
       "kind": "Değişken Fon"
     },
     "ZCN": {
-      "price": 3.614659,
+      "price": 3.622656,
       "name": "ZİRAAT PORTFÖY EMTİA FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
     },
     "ZSG": {
-      "price": 4.026713,
+      "price": 4.027325,
       "name": "ZİRAAT PORTFÖY ESG SÜRDÜRÜLEBİLİRLİK FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
     },
     "ZPC": {
-      "price": 17.211741,
+      "price": 17.211427,
       "name": "ZİRAAT PORTFÖY FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -5199,7 +6333,7 @@
       "kind": "Serbest Fon"
     },
     "ZND": {
-      "price": 0.826889,
+      "price": 0.828054,
       "name": "ZİRAAT PORTFÖY NADİR TOPRAK ELEMENTLERİ VE STRATEJİK METALLER FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -5235,7 +6369,7 @@
       "kind": "Yabancı Hisse Senedi Fonu "
     },
     "ZTG": {
-      "price": 1.245001,
+      "price": 1.243104,
       "name": "ZİRAAT PORTFÖY TARIM VE GIDA FON SEPETİ FONU",
       "type": "YAT",
       "kind": "Fon Sepeti Fonu"
@@ -5276,6 +6410,12 @@
       "type": "EMK",
       "kind": "Altın Katılım Fonu"
     },
+    "MZN": {
+      "price": 0.069042,
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
     "AE2": {
       "price": 0.385812,
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
@@ -5305,6 +6445,12 @@
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Hisse Senedi Fonu"
+    },
+    "MZL": {
+      "price": 0.074954,
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. İKİNCİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
     },
     "AVB": {
       "price": 0.948874,
@@ -5385,7 +6531,7 @@
       "kind": "OKS Standart Fon"
     },
     "AVO": {
-      "price": 0.156889,
+      "price": 0.156897,
       "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ÖZEL SEKTÖR BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Özel Sektör Borçlanma Araçları Fonu"
@@ -5432,6 +6578,12 @@
       "type": "EMK",
       "kind": "Hisse Senedi Fonu"
     },
+    "MZP": {
+      "price": 0.083667,
+      "name": "AGESA HAYAT VE EMEKLİLİK A.Ş. ÜÇÜNCÜ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
     "AZD": {
       "price": 1.043644,
       "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. BİRİNCİ KARMA EMEKLİLİK YATIRIM FONU",
@@ -5450,6 +6602,12 @@
       "type": "EMK",
       "kind": "Hisse Senedi Fonu"
     },
+    "HFS": {
+      "price": 0.012964,
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. HSBC FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
     "AUG": {
       "price": 0.659135,
       "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. İKİNCİ KARMA EMEKLİLİK YATIRIM FONU",
@@ -5462,11 +6620,29 @@
       "type": "EMK",
       "kind": "Standart Fon"
     },
+    "AZY": {
+      "price": 0.274243,
+      "name": "ALLIANZ HAYAT VE EMEKLİLİK A.Ş. TARIM VE GIDA FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
     "AMZ": {
       "price": 0.631538,
       "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Altın Fonu"
+    },
+    "NZA": {
+      "price": 0.009373,
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Altın Katılım Fonu"
+    },
+    "FOA": {
+      "price": 0.016104,
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. AZİMUT FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
     },
     "AEU": {
       "price": 0.354471,
@@ -5485,6 +6661,12 @@
       "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Borçlanma Araçları Fonu"
+    },
+    "HSR": {
+      "price": 0.010179,
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Hisse Senedi Fonu"
     },
     "ALS": {
       "price": 1.012759,
@@ -5582,6 +6764,234 @@
       "type": "EMK",
       "kind": "Borçlanma Araçları Fonu"
     },
+    "YZD": {
+      "price": 0.055378,
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "AEZ": {
+      "price": 0.225517,
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. YAPI KREDİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "APG": {
+      "price": 0.256867,
+      "name": "ALLIANZ YAŞAM VE EMEKLİLİK A.Ş. YENİLENEBİLİR ENERJİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "AHL": {
+      "price": 0.420184,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "BGL": {
+      "price": 0.058098,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Altın Fonu"
+    },
+    "AEA": {
+      "price": 0.641128,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Altın Katılım Fonu"
+    },
+    "AH9": {
+      "price": 0.920053,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. ATAK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "AH6": {
+      "price": 1.208024,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. BİRİNCİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "AH3": {
+      "price": 1.063274,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. BİRİNCİ KAMU DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Kamu Yabancı Para (Döviz) Cinsinden Borçlanma Araç"
+    },
+    "HS1": {
+      "price": 0.281475,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Borçlanma Araçları Fonu"
+    },
+    "EMI": {
+      "price": 0.007813,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. EMLAK SEKTÖRÜ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "GMF": {
+      "price": 0.017168,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. GÜMÜŞ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "AH5": {
+      "price": 2.408064,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "AH1": {
+      "price": 0.39322,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. İKİNCİ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Borçlanma Araçları Fonu"
+    },
+    "AHB": {
+      "price": 1.17706,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. İKİNCİ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "AH4": {
+      "price": 0.73155,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. İKİNCİ KAMU DIŞ BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Kamu Yabancı Para (Döviz) Cinsinden Borçlanma Araç"
+    },
+    "ATE": {
+      "price": 0.666143,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. İŞ BANKASI İŞTİRAK ENDEKSİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Endeks Fon"
+    },
+    "AH8": {
+      "price": 0.488928,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Karma Fon"
+    },
+    "KHL": {
+      "price": 0.009079,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Katılım Hisse Senedi Fonu"
+    },
+    "AGE": {
+      "price": 0.182342,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Katılım Standart Fon"
+    },
+    "KRU": {
+      "price": 0.012726,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. KİRA SERTİFİKALARI KATILIM EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Kira Sertifikasi Katılım Fonu"
+    },
+    "MDK": {
+      "price": 0.019267,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. MERKEZİ ALACAĞIN DEVRİ MUHAFAZAKAR KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Merkezi Alacağın Devri Fonu"
+    },
+    "AJA": {
+      "price": 0.297457,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "AJG": {
+      "price": 0.285709,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "AJB": {
+      "price": 0.292641,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS ATAK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "AJH": {
+      "price": 0.232201,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS ATAK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "AJC": {
+      "price": 0.214903,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "AFP": {
+      "price": 0.103839,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "OKS Katılım Standart Fon"
+    },
+    "AFH": {
+      "price": 0.116895,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "OKS Standart Fon"
+    },
+    "AJF": {
+      "price": 0.135498,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. OKS TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "AHC": {
+      "price": 0.157377,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. ÖZEL SEKTÖR BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Özel Sektör Borçlanma Araçları Fonu"
+    },
+    "ATK": {
+      "price": 0.245727,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Standart Fon"
+    },
+    "BHS": {
+      "price": 0.120536,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK  HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "TVG": {
+      "price": 0.014988,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. TARIM VE GIDA FON SEPETİ  EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "BHT": {
+      "price": 0.106285,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "BNO": {
+      "price": 0.049215,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş TEMETTÜ ÖDEYEN ŞİRKETLER HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "MDD": {
+      "price": 0.018676,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş.MERKEZİ ALACAĞIN DEVRİ DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Merkezi Alacağın Devri Fonu"
+    },
+    "ABE": {
+      "price": 0.43165,
+      "name": "ANADOLU HAYAT EMEKLİLİK A.Ş.S&P 500 YABANCI BYF FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
     "HEA": {
       "price": 0.584593,
       "name": "AXA HAYAT VE EMEKLİLİK A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
@@ -5595,7 +7005,7 @@
       "kind": "Değişken Fon"
     },
     "RZN": {
-      "price": 0.055165,
+      "price": 0.055441,
       "name": "AXA HAYAT VE EMEKLİLİK A.Ş. FON SEPETİ EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Fon Sepeti Fonu"
@@ -5685,7 +7095,7 @@
       "kind": "Altın Katılım Fonu"
     },
     "AGB": {
-      "price": 0.272577,
+      "price": 0.272596,
       "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. BÜYÜME KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Değişken Fon"
@@ -5709,25 +7119,25 @@
       "kind": "Kira Sertifikasi Katılım Fonu"
     },
     "AGM": {
-      "price": 0.201916,
+      "price": 0.201922,
       "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. MUHAFAZAKAR KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Değişken Fon"
     },
     "BEO": {
-      "price": 0.212894,
+      "price": 0.2129,
       "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Değişken Fon"
     },
     "BEF": {
-      "price": 0.186973,
+      "price": 0.18699,
       "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. OKS DİNAMİK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Değişken Fon"
     },
     "BEI": {
-      "price": 0.106651,
+      "price": 0.106653,
       "name": "BEREKET EMEKLİLİK VE HAYAT A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "OKS Katılım Standart Fon"
@@ -5828,6 +7238,12 @@
       "type": "EMK",
       "kind": "Standart Fon"
     },
+    "BSR": {
+      "price": 0.013253,
+      "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. SÜRDÜRÜLEBİLİRLİK FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
     "BZY": {
       "price": 0.062114,
       "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş. TEKNOLOJİ SEKTÖRÜ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
@@ -5835,7 +7251,7 @@
       "kind": "Değişken Fon"
     },
     "BPG": {
-      "price": 0.28118,
+      "price": 0.281166,
       "name": "BNP PARİBAS CARDİF EMEKLİLİK A.Ş.BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Borçlanma Araçları Fonu"
@@ -6063,7 +7479,7 @@
       "kind": "Değişken Fon"
     },
     "FVI": {
-      "price": 0.027705,
+      "price": 0.027685,
       "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş ESG SÜRDÜRÜLEBİLİRLİK FON SEPETİ EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Fon Sepeti Fonu"
@@ -6075,7 +7491,7 @@
       "kind": "Borçlanma Araçları Fonu"
     },
     "FIK": {
-      "price": 0.206978,
+      "price": 0.206998,
       "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. FON SEPETİ EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Fon Sepeti Fonu"
@@ -6087,7 +7503,7 @@
       "kind": "Hisse Senedi Fonu"
     },
     "FFZ": {
-      "price": 0.081616,
+      "price": 0.081699,
       "name": "HDI FİBA EMEKLİLİK VE HAYAT A.Ş. INVEO PORTFÖY FON SEPETİ EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Fon Sepeti Fonu"
@@ -6231,7 +7647,7 @@
       "kind": "Değişken Fon"
     },
     "KES": {
-      "price": 0.218903,
+      "price": 0.218705,
       "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. AGRESİF KATILIM DEĞİŞKEN (DÖVİZ) EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Değişken Fon"
@@ -6297,7 +7713,7 @@
       "kind": "Kira Sertifikasi Katılım Fonu"
     },
     "KFE": {
-      "price": 0.016243,
+      "price": 0.016303,
       "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. KUVEYT TÜRK KATILIM FON SEPETİ EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Fon Sepeti Fonu"
@@ -6337,6 +7753,108 @@
       "name": "KATILIM EMEKLİLİK VE HAYAT A.Ş. TEMETTÜ ÖDEYEN ŞİRKETLER KATILIM HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Katılım Hisse Senedi Fonu"
+    },
+    "MEA": {
+      "price": 0.21006,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. ALTIN KATILIM EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Altın Katılım Fonu"
+    },
+    "MEB": {
+      "price": 0.013398,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. BORÇLANMA ARAÇLARI EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Borçlanma Araçları Fonu"
+    },
+    "MHH": {
+      "price": 0.491728,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. HİSSE SENEDİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Hisse Senedi Fonu"
+    },
+    "MHD": {
+      "price": 0.437724,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. KAMU DIŞ BORÇLANMA ARAÇLARI (ABD DOLARI 0-5 YIL VADELİ) EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Kamu Yabancı Para (Döviz) Cinsinden Borçlanma Araç"
+    },
+    "MHS": {
+      "price": 0.154491,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Katılım Standart Fon"
+    },
+    "MHE": {
+      "price": 0.23975,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "MHR": {
+      "price": 0.187166,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "MHV": {
+      "price": 0.189741,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS AGRESİF KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "MHO": {
+      "price": 0.170224,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS ATAK DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "MHU": {
+      "price": 0.166744,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS ATAK KATILIM DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "MHN": {
+      "price": 0.144111,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS DENGELİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "MHI": {
+      "price": 0.090549,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS KATILIM STANDART EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "OKS Katılım Standart Fon"
+    },
+    "MHZ": {
+      "price": 0.100096,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS STANDART EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "OKS Standart Fon"
+    },
+    "MHM": {
+      "price": 0.162309,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. OKS TEMKİNLİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Değişken Fon"
+    },
+    "MHK": {
+      "price": 0.120256,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. STANDART EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Standart Fon"
+    },
+    "MEY": {
+      "price": 0.025516,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş. SÜRDÜRÜLEBİLİRLİK FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
+    },
+    "MEV": {
+      "price": 0.025716,
+      "name": "METLİFE EMEKLİLİK VE HAYAT A.Ş.TEKNOLOJİ FON SEPETİ EMEKLİLİK YATIRIM FONU",
+      "type": "EMK",
+      "kind": "Fon Sepeti Fonu"
     },
     "CFA": {
       "price": 0.262764,
@@ -6507,7 +8025,7 @@
       "kind": "Kira Sertifikasi Katılım Fonu"
     },
     "HHY": {
-      "price": 0.130091,
+      "price": 0.130077,
       "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. KARMA EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Karma Fon"
@@ -6639,7 +8157,7 @@
       "kind": "Hisse Senedi Fonu"
     },
     "THE": {
-      "price": 0.013279,
+      "price": 0.013283,
       "name": "TÜRKİYE HAYAT VE EMEKLİLİK A.Ş. TARIM VE GIDA FON SEPETİ EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Fon Sepeti Fonu"
@@ -6687,7 +8205,7 @@
       "kind": "Standart Fon"
     },
     "NHA": {
-      "price": 0.40905,
+      "price": 0.40926,
       "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. ALTIN EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Altın Fonu"
@@ -6699,7 +8217,7 @@
       "kind": "Borçlanma Araçları Fonu"
     },
     "IEA": {
-      "price": 0.555685,
+      "price": 0.556051,
       "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Değişken Fon"
@@ -6723,7 +8241,7 @@
       "kind": "Hisse Senedi Fonu"
     },
     "NHN": {
-      "price": 0.326082,
+      "price": 0.335054,
       "name": "ZURICH YAŞAM VE EMEKLİLİK A.Ş. İKİNCİ DEĞİŞKEN EMEKLİLİK YATIRIM FONU",
       "type": "EMK",
       "kind": "Değişken Fon"
